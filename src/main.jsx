@@ -22,16 +22,16 @@ createRoot(document.getElementById('root')).render(
         <ScrollonTOP />
         <Suspense fallback={<span className="loader"></span>}>
             <Routes>
-                <Route element={<Page1/>} path='/LazyLoading/Page1'/>
-                <Route element={<Page2/>} path='/LazyLoading/Page2'/>
-                <Route element={<Page3/>} path='/LazyLoading/Page3'/>
-                <Route element={<Page4/>} path='/LazyLoading/Page4'/>
-                <Route element={<Page5/>} path='/LazyLoading/Page5'/>
-                <Route element={<Page6/>} path='/LazyLoading/Page6'/>
-                <Route element={<Page7/>} path='/LazyLoading/Page7'/>
-                <Route element={<Page8/>} path='/LazyLoading/Page8'/>
-                <Route element={<Page9/>} path='/LazyLoading/Page9'/>
-                <Route element={<Page10/>} path='/LazyLoading/Page10'/>
+                <Route element={<Page1/>} path='/Page1'/>
+                <Route element={<Page2/>} path='/Page2'/>
+                <Route element={<Page3/>} path='/Page3'/>
+                <Route element={<Page4/>} path='/Page4'/>
+                <Route element={<Page5/>} path='/Page5'/>
+                <Route element={<Page6/>} path='/Page6'/>
+                <Route element={<Page7/>} path='/Page7'/>
+                <Route element={<Page8/>} path='/Page8'/>
+                <Route element={<Page9/>} path='/Page9'/>
+                <Route element={<Page10/>} path='/Page10'/>
             </Routes>
         </Suspense>
     </Router>
