@@ -4,7 +4,7 @@ function MyRouter(props){
     
 return(
     <div className={`Aside ${props.toggle?'Show':'dontshow'}`}>
-        <Link className="btn btn-danger btn-lg page1"  to={'/Page1 '}>Page 1</Link>
+        <Link className="btn btn-danger btn-lg page1"  to={'/ '}>Page 1</Link>
         <Link className="btn btn-danger btn-lg page2"  to={'/Page2 '}>Page 2</Link>
         <Link className="btn btn-danger btn-lg page3"  to={'/Page3 '}>Page 3</Link>
         <Link className="btn btn-danger btn-lg page4"  to={'/Page4 '}>Page 4</Link>
