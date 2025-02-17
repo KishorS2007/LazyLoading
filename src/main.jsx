@@ -22,7 +22,7 @@ createRoot(document.getElementById('root')).render(
         <ScrollonTOP />
         <Suspense fallback={<span className="loader"></span>}>
             <Routes>
-                <Route element={<Page1/>} path='/LazyLoading/Page1'/>
+                <Route element={<Page1/>} path='/LazyLoading/'/>
                 <Route element={<Page2/>} path='/LazyLoading/Page2'/>
                 <Route element={<Page3/>} path='/LazyLoading/Page3'/>
                 <Route element={<Page4/>} path='/LazyLoading/Page4'/>
